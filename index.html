@@ -19,12 +19,13 @@
     <title>Todo Clone</title>
 </head>
 <body>
-    
-    <input type="text" name="todo-list" placeholder="Inserisci cosa fare">
-    <ul id="result"></ul>
+    <div class="wrapper">
+        <input type="text" name="todo-list" placeholder="Inserisci cosa fare">
+        <ul id="result"></ul>
+    </div>
 
     <script id="entry-template" type="text/x-handlebars-template">
-        <li>{{text}} <span class="delete">X</span></li>
+        <li>{{text}}<span class="delete">X</span></li>
     </script>
 
 </body>

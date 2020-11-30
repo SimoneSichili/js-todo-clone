@@ -3,20 +3,46 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    outline: none;
 }
 
 body {
     margin: 50px;
 }
 
+.wrapper {
+    width: 500px;
+    padding: 50px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 input {
-    padding: 10px;
     margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+ul#result {
+    list-style: none;
+}
+
+ul#result li {
+    padding: 20px 0px;
+    border-bottom: 1px solid lightgrey;
 }
 
 .delete {
-    color: red;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: red;
+    color: #fff;
     font-weight: 700;
+    border-radius: 50%;
     cursor: pointer;
 }
 
